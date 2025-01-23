@@ -1,0 +1,28 @@
+body {
+    background-image: url(./premium_photo-1663100722417-6e36673fe0ed.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+    justify-content: center !important;
+    text-align: center;
+}
+
+h1 a:hover {
+    color: red;
+}
+
+.card {
+    margin: 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}

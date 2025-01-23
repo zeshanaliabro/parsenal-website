@@ -1,0 +1,23 @@
+        /* body {
+            font-family: Arial, sans-serif;
+            background-color: tan;
+            margin: 0;
+            padding: 20px;
+        }
+        .canteiner{
+            background-color: sienna;
+            width: 200px;
+            height: 168px;
+            position: absolute;
+            left: 600px;
+            top: 200px;
+        } */
+
+#box{
+    width: 180px;
+    height: 25px;
+
+}
+.canteiner{
+    flex-wrap: wrap;    
+}
