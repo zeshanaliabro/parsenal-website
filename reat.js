@@ -1,5 +1,4 @@
-function send(e){
-    // e.preventDefault()
+function send(){
     let pursom = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value,
@@ -24,4 +23,3 @@ alert("your messege is success")
 );
 
 }
-

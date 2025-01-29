@@ -1,24 +1,22 @@
-/* Resetting default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styling the body */
 body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(./istockphoto-1939454438-612x612.webp);
+    /* background-image: url(./istockphoto-1939454438-612x612.webp); */
+    background-color: #333;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 
-/* Styling the form container */
 .form-container {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 30px;
@@ -29,20 +27,16 @@ body {
     text-align: center;
 }
 
-/* Styling the form heading */
 .form-container h1 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: white;
 }
 
-/* Styling the form groups */
 .form-group {
     margin-bottom: 15px;
     text-align: left;
 }
 
-/* Styling form labels */
 label {
     font-size: 14px;
     color: white;
@@ -50,7 +44,6 @@ label {
     display: block;
 }
 
-/* Styling input and textarea fields */
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -58,22 +51,10 @@ input, textarea {
     border-radius: 5px;
     margin-top: 5px;
     font-size: 14px;
-}
-
-/* Styling input and textarea background */
-input, textarea {
     background: rgba(255, 255, 255, 0.9);
     color: #333;
-    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Adding focus effect */
-input:focus, textarea:focus {
-    outline: 2px solid #6a11cb;
-    background: rgba(255, 255, 255, 1);
-}
-
-/* Styling the submit button */
 button {
     background-color: #ff6a00;
     color: white;
@@ -86,23 +67,8 @@ button {
     width: 100%;
 }
 
-/* Adding hover effect to the button */
 button:hover {
     background-color: #ff4500;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
-}
-
-/* Making the form responsive */
-@media (max-width: 600px) {
-    .form-container {
-        padding: 20px;
-    }
-}
-h1 a{
-    text-decoration-line: none;
-    color: white;
-}
-h1 a:hover{
-    color: red;
 }
