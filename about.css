@@ -22,3 +22,10 @@ body {
     width: 300px;
     text-align: center;
 }
+.about  h1 a{
+    text-decoration-line: none;
+    color: white;
+}
+h1 a:hover{
+    color: red;
+}

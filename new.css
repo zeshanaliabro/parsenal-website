@@ -21,7 +21,7 @@ body {
 .nav ul {
    display: flex;
    justify-content: center;
-   gap: 20px;  
+   gap: 80px;  
    margin-top: 70px;
 }
 
@@ -62,7 +62,22 @@ h2 {
 .zeee{
    font-size: 30px;
 }
+.btn{
+      width: 160px !important;
+   height: 40px !important;
+   background-color: blue;
+   /* border-radius: 20%; */
+ 
+}
+.btn a{
+  
+ color: white;
 
+   text-decoration-line: none
+}
+a{
+   
+}
 
 
 
@@ -80,6 +95,7 @@ body {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   margin-bottom: 30px;
 }
 
 .card {
